@@ -14,9 +14,10 @@ class Heapify(object):
             return i >> 1
         else:
             return (i >> 1) -1
-
+            
     def left_child(self, i):
         return (i << 1) + 1
+        
     def right_child(self, i):
         return (i << 1) + 2
 
