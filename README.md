@@ -1,4 +1,4 @@
-# typing-practice
+# data_structure(python)
 
 1. 자료구조의 목적과 이론 이해하기
 2. 자료구조의 구현 로직 따라가기
