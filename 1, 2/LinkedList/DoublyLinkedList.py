@@ -40,7 +40,7 @@ class DoublyLinked_list(object):
             while cur_i < idx:
                 if curn:
                     prevn = curn
-                    crun = curn.next
+                    curn = curn.next
                 else:
                     break
                 cur_i += 1
