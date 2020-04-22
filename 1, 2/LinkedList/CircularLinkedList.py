@@ -11,7 +11,7 @@ class CircularLinkedList(object):
     def append(self, node):
         if self.head:
             curn = self.head
-            while curn.next != self.head: # 사이클 돌아서 headn 직전 노드를 curn로 만들기
+            while curn.next != self.head:
                 curn = curn.next
             curn.next = node
             node.next = self.head
