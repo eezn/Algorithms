@@ -1,3 +1,5 @@
+# 내부적으로 doublylinkedlist로 구현되어 데이터 처리속도가 O(1)으로 매우 빠름
+
 from collections import deque
 
 # deque 선언

@@ -1,3 +1,5 @@
+# Queue 모듈은 Queue, PriorityQueue, LIFO_Queue(Stack)을 제공
+
 import queue
 
 # Queue 선언

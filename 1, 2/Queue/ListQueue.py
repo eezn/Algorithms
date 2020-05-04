@@ -1,3 +1,7 @@
+# 리스트로 구현시 
+# enqueue()의 시간복잡도는 O(1) 
+# dequeue()의 시간복잡도는 O(n) -> pop(0) 이후 모든 원소를 한 칸 씩 이동시켜야 함
+
 class ListQueue(object):
     def __init__(self):
         self.queue = []

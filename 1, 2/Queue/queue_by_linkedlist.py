@@ -1,3 +1,5 @@
+# linkedlist -> queue : pop(0) 할 때 모든 원소를 한 칸씩 이동하는 연산이 필요 없다.
+
 class Node(object):
     def __init__(self, data):
         self.data = data
