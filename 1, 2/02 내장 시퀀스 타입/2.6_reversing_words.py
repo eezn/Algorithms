@@ -1,0 +1,16 @@
+# 문자열 단어 단위로 반전하기
+# 공백으로 구분해서 리스트를 생성한 다음, 슬라이스를 사용
+
+
+def reversing_words_slice(word):
+    new_word = []
+    words = word.split(" ")
+    for word in words[::-1]:
+        new_word.append(word)
+    return " ".join(new_word)
+
+
+if __name__ == "__main__":
+    str1 = "파이썬 알고리즘 정말 재미있다"
+    str2 = reversing_words_slice(str1)
+    print(str2)
